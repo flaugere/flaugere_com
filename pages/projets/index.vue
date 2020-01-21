@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<style lang="scss" scoped>
+div {
+  margin: 15px;
+}
+</style>
+
 <script>
 import { mapState, mapActions } from 'vuex'
 import ProjectList from '~/components/Project/List'
